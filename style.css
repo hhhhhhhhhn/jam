@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#level{
+    margin-top: 100vh;
+    resize: none;
+    width: calc(100vh * (16/9) - 2px);
+    padding: 0;
+    height: 30vh;
+}
+
+#load{
+    width: calc(100vh * (16/9) - 2px);
+    height: 5vh;
+    border: none;
+    background-color: white;
+    font-size: 3vh;
+}
